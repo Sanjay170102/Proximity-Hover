@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+<body>
+     <div class="dumb">
+        <img src="./Robot.png" alt="" class="guy">
+        <img src="./Right Eye.png" alt="" class="eye left">
+        <img src="./Right Eye.png" alt="" class="eye right">
+     </div>
+     <div class="box">
+        <span class="border-line"></span>
+        <form action="">
+            <h2>Signup</h2>
+            <div class="inputBox">
+                <input class="username" type="text" required pattern="/^[a-zA-Z0-9_-]{3,16}$/x"> 
+                <label for="username">Username</label>
+                <i></i>
+            </div>
+
+            <div class="inputBox">
+                <input class="Password" type="password" required> 
+                <label for="Password">Password</label>
+                <i></i>
+            </div>
+
+            <div class="inputBox">
+                <input class="confirmPassword" type="password" required> 
+                <label for="confirmPassword">Confirm Password</label>
+                <i></i>
+            </div>
+
+            <input type="submit" value="Signup">
+        </form>
+     </div>
+     <script src="app.js"></script>
+</body>
+</html>
